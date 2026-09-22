@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ae6b923b-af76-4f04-b726-d20d172e9e46}">
 		<property name="name">
-			<value>New Event</value>
+			<value>Underground - vertical</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
@@ -28,6 +28,9 @@
 		<relationship name="timeline">
 			<destination>{0a33a2f8-0415-408e-af67-382ad78d38f4}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{0e41109f-2d01-4da2-8a51-0de32d7fc467}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{da47337f-9419-43fb-acdb-a8f19b16649e}">
 		<relationship name="masterBus">
@@ -52,11 +55,7 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{f33d8ced-30ed-4108-9010-fa71a8ab2966}" />
 	<object class="MarkerTrack" id="{79dae505-5df3-4612-ba9a-58b1238f6829}" />
-	<object class="Timeline" id="{0a33a2f8-0415-408e-af67-382ad78d38f4}">
-		<property name="isProxyEnabled">
-			<value>false</value>
-		</property>
-	</object>
+	<object class="Timeline" id="{0a33a2f8-0415-408e-af67-382ad78d38f4}" />
 	<object class="EventMixerMaster" id="{155a6862-d3e1-4edc-a5a2-82ad25296f53}">
 		<relationship name="effectChain">
 			<destination>{5a6cb0cf-b079-4654-b72c-3087b4178639}</destination>

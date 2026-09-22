@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{5a6882a0-c875-4763-b570-03eabf1ece8a}">
 		<property name="name">
-			<value>Overworld</value>
+			<value>Overworld - horizontal</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
