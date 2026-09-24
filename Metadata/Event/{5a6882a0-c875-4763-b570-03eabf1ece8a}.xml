@@ -118,6 +118,8 @@ Har även lagt in underground eventet som ett nested event för att göra implem
 			<destination>{ecf683a5-9734-4a27-aafd-cc5eb953fe38}</destination>
 			<destination>{2dcd31ce-26b2-4136-a963-7a3f41901188}</destination>
 			<destination>{18c7a130-216d-4098-bb5b-15f2f78696f0}</destination>
+			<destination>{b66b61c1-e41b-4bfa-8ecd-8902a66fd0f8}</destination>
+			<destination>{e274a33f-e92a-4ad6-a12e-81a9f0efcfa6}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{3cd203ed-8c8b-4c5c-8864-1ddd6132e19c}">
@@ -199,6 +201,9 @@ Har även lagt in underground eventet som ett nested event för att göra implem
 		</relationship>
 	</object>
 	<object class="EventSound" id="{2897dc0c-85fa-425b-8b85-7879b0c5e6cf}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>28.5</value>
 		</property>
@@ -384,6 +389,40 @@ Har även lagt in underground eventet som ett nested event för att göra implem
 			<destination>{63b26d47-eacc-479c-9fa5-85dae968e715}</destination>
 		</relationship>
 	</object>
+	<object class="TransitionRegion" id="{b66b61c1-e41b-4bfa-8ecd-8902a66fd0f8}">
+		<property name="position">
+			<value>9.5</value>
+		</property>
+		<property name="length">
+			<value>9.5</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{c72f90e1-b38d-476e-83c1-114eec85a84d}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{02ca6b7b-a4e8-4991-9669-91c36d1d0a6f}</destination>
+		</relationship>
+		<relationship name="destination">
+			<destination>{2dcd31ce-26b2-4136-a963-7a3f41901188}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{7acf0d55-875a-4724-a66a-61816c174f2e}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionMarker" id="{e274a33f-e92a-4ad6-a12e-81a9f0efcfa6}">
+		<property name="position">
+			<value>32</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{c72f90e1-b38d-476e-83c1-114eec85a84d}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{6e3d1aca-022f-422a-a67d-01e98e6483f6}</destination>
+		</relationship>
+		<relationship name="destination">
+			<destination>{fa243185-318e-41ee-8113-70b5b1713eaa}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{622fe89a-d261-46fe-9ac3-25d9295ce9ab}">
 		<relationship name="effects">
 			<destination>{f6df87d6-2728-498c-a104-51fce3ae7e0f}</destination>
@@ -535,6 +574,17 @@ Har även lagt in underground eventet som ett nested event för att göra implem
 		</property>
 		<property name="maximum">
 			<value>4</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{acd7bdc5-da33-4a30-a3b1-a36c65552671}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{7acf0d55-875a-4724-a66a-61816c174f2e}">
+		<property name="minimum">
+			<value>3</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{acd7bdc5-da33-4a30-a3b1-a36c65552671}</destination>
