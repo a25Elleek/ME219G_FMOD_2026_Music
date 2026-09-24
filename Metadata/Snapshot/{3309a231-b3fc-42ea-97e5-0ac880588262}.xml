@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Snapshot" id="{3309a231-b3fc-42ea-97e5-0ac880588262}">
+		<property name="note">
+			<value>Snapshot som lägger en highcut när man tar damage</value>
+		</property>
 		<property name="name">
 			<value>Damage snapshot</value>
 		</property>
