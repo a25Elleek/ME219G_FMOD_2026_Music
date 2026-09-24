@@ -3,7 +3,8 @@
 	<object class="Event" id="{5a6882a0-c875-4763-b570-03eabf1ece8a}">
 		<property name="note">
 			<value>Ett audio track uppdelat i tre loopar vars loop bara spelas när progression värdet matchar.
-Pick up key stingern ligger som ett nested event som ska kunna spelas upp oavsätt zone</value>
+Pick up key stingern ligger som ett nested event som ska kunna spelas upp oavsätt zone
+Har även lagt in underground eventet som ett nested event för att göra implementeringen lättare</value>
 		</property>
 		<property name="color">
 			<value>Purple</value>
