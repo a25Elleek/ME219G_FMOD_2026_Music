@@ -335,6 +335,9 @@ Har även lagt in underground eventet som ett nested event för att göra implem
 		<property name="length">
 			<value>3.5</value>
 		</property>
+		<property name="triggerConditionMode">
+			<value>1</value>
+		</property>
 		<relationship name="timeline">
 			<destination>{c72f90e1-b38d-476e-83c1-114eec85a84d}</destination>
 		</relationship>
