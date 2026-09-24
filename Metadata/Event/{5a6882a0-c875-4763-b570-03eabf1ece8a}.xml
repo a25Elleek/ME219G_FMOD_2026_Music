@@ -167,7 +167,7 @@ Har även lagt in underground eventet som ett nested event för att göra implem
 	</object>
 	<object class="EventSound" id="{be92c08d-ab78-4062-b90e-d9db8f048010}">
 		<property name="length">
-			<value>28.5</value>
+			<value>32</value>
 		</property>
 		<relationship name="triggerConditions">
 			<destination>{e43db8c3-1471-4e29-ae79-c1e6e6f9eb5e}</destination>
@@ -339,6 +339,10 @@ Har även lagt in underground eventet som ett nested event för att göra implem
 		<relationship name="markerTrack">
 			<destination>{3a2a9861-5185-4cdc-9770-240f03bf7e7f}</destination>
 		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{81b69329-34d0-49ef-8c2b-3a1c51559454}</destination>
+			<destination>{dbcecaeb-9590-4ea7-91a2-66fbe852934b}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{622fe89a-d261-46fe-9ac3-25d9295ce9ab}">
 		<relationship name="effects">
@@ -447,6 +451,28 @@ Har även lagt in underground eventet som ett nested event för att göra implem
 		</property>
 		<property name="maximum">
 			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{acd7bdc5-da33-4a30-a3b1-a36c65552671}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{81b69329-34d0-49ef-8c2b-3a1c51559454}">
+		<property name="minimum">
+			<value>3</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{acd7bdc5-da33-4a30-a3b1-a36c65552671}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{dbcecaeb-9590-4ea7-91a2-66fbe852934b}">
+		<property name="minimum">
+			<value>4</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{acd7bdc5-da33-4a30-a3b1-a36c65552671}</destination>

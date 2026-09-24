@@ -3,7 +3,7 @@
 	<object class="Event" id="{ae6b923b-af76-4f04-b726-d20d172e9e46}">
 		<property name="note">
 			<value>Underground musiken är indelade i tre stems vars dB skiftar beroende på progression värde. Alla tre stems använder sig av volume automation.
-Pick up key stingern ligger som ett nested event som ska kunna spelas oavsätt progressions värdet på de tre tidigare stemsen</value>
+</value>
 		</property>
 		<property name="color">
 			<value>Purple</value>
@@ -36,7 +36,6 @@ Pick up key stingern ligger som ett nested event som ska kunna spelas oavsätt p
 			<destination>{f9b4dfe5-e0c8-4faf-85ae-1f75300441f0}</destination>
 			<destination>{78811c2e-ae6b-4522-95cf-d25479c4df5b}</destination>
 			<destination>{a7531d50-06f7-4d5a-b9ab-702ae5e907c6}</destination>
-			<destination>{ead2ce90-ec7c-49ad-a01c-4b5bf33011aa}</destination>
 		</relationship>
 		<relationship name="timeline">
 			<destination>{0a33a2f8-0415-408e-af67-382ad78d38f4}</destination>
@@ -107,20 +106,11 @@ Pick up key stingern ligger som ett nested event som ska kunna spelas oavsätt p
 			<destination>{bd6fa476-c000-4c45-a24a-02aba22339eb}</destination>
 		</relationship>
 	</object>
-	<object class="GroupTrack" id="{ead2ce90-ec7c-49ad-a01c-4b5bf33011aa}">
-		<relationship name="modules">
-			<destination>{0820db10-6438-45f3-aa22-ca1213b06faa}</destination>
-		</relationship>
-		<relationship name="mixerGroup">
-			<destination>{61501285-4cd5-4395-954d-ddf10fc8bd9f}</destination>
-		</relationship>
-	</object>
 	<object class="Timeline" id="{0a33a2f8-0415-408e-af67-382ad78d38f4}">
 		<relationship name="modules">
 			<destination>{c476fddb-3d5f-45c4-ac5b-4282d9595c4e}</destination>
 			<destination>{0daa30b0-6d25-4290-aaae-6af6867284f3}</destination>
 			<destination>{99cf7d01-c9bd-4c99-8dbd-86cd83658f77}</destination>
-			<destination>{0820db10-6438-45f3-aa22-ca1213b06faa}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{e3c9f7a9-33dd-4986-883f-f6af1d101c14}">
@@ -238,34 +228,6 @@ Pick up key stingern ligger som ett nested event som ska kunna spelas oavsätt p
 			<destination>{155a6862-d3e1-4edc-a5a2-82ad25296f53}</destination>
 		</relationship>
 	</object>
-	<object class="EventSound" id="{0820db10-6438-45f3-aa22-ca1213b06faa}">
-		<property name="length">
-			<value>52.055999999999997</value>
-		</property>
-		<relationship name="parameters">
-			<destination>{2a10e5bc-96d1-4b95-bd69-33def7629523}</destination>
-		</relationship>
-		<relationship name="event">
-			<destination>{130de25a-8490-4305-a648-d821dfed11bc}</destination>
-		</relationship>
-	</object>
-	<object class="EventMixerGroup" id="{61501285-4cd5-4395-954d-ddf10fc8bd9f}">
-		<property name="volume">
-			<value>-3</value>
-		</property>
-		<property name="name">
-			<value>Audio 4</value>
-		</property>
-		<relationship name="effectChain">
-			<destination>{7a099b79-3088-4e8f-8824-71ea260909df}</destination>
-		</relationship>
-		<relationship name="panner">
-			<destination>{f7d10329-ed88-4284-a0b8-b673c5a0bbf0}</destination>
-		</relationship>
-		<relationship name="output">
-			<destination>{155a6862-d3e1-4edc-a5a2-82ad25296f53}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusEffectChain" id="{5a6cb0cf-b079-4654-b72c-3087b4178639}">
 		<relationship name="effects">
 			<destination>{9efe67ba-9403-4f20-a8db-86380fe4130a}</destination>
@@ -317,17 +279,6 @@ Pick up key stingern ligger som ett nested event som ska kunna spelas oavsätt p
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{dfbad284-3424-4aab-9666-f5d84abd4ef1}" />
-	<object class="ParameterProperty" id="{2a10e5bc-96d1-4b95-bd69-33def7629523}">
-		<relationship name="parameter">
-			<destination>{715374be-4e1e-4cf4-ac0f-0ef931fcf151}</destination>
-		</relationship>
-	</object>
-	<object class="MixerBusEffectChain" id="{7a099b79-3088-4e8f-8824-71ea260909df}">
-		<relationship name="effects">
-			<destination>{752c3999-4bd3-4a90-8fc0-57cb1baa5a91}</destination>
-		</relationship>
-	</object>
-	<object class="MixerBusPanner" id="{f7d10329-ed88-4284-a0b8-b673c5a0bbf0}" />
 	<object class="MixerBusFader" id="{9efe67ba-9403-4f20-a8db-86380fe4130a}" />
 	<object class="AutomationCurve" id="{5b262c40-d03f-496f-8f45-0383ea060add}">
 		<relationship name="parameter">
@@ -372,7 +323,6 @@ Pick up key stingern ligger som ett nested event som ska kunna spelas oavsätt p
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{1ba72296-10ef-464c-b2cc-7f4de6927658}" />
-	<object class="MixerBusFader" id="{752c3999-4bd3-4a90-8fc0-57cb1baa5a91}" />
 	<object class="AutomationPoint" id="{47fcf907-4083-4f3d-a15b-f25b54ff9849}">
 		<property name="position">
 			<value>0</value>
