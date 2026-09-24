@@ -6,6 +6,9 @@
 Distance parametern ändrar dB på reverbet beroende på value
 Både timeline tracket och distance traket använder volume automation.</value>
 		</property>
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="name">
 			<value>Key chime - 3D event</value>
 		</property>
@@ -54,6 +57,9 @@ Både timeline tracket och distance traket använder volume automation.</value>
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{5febb1f8-b4c6-427e-97e9-57426800b8cc}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{98f5823d-b92d-40ee-9d69-a16afb2a5768}</destination>
 		</relationship>
@@ -61,7 +67,7 @@ Både timeline tracket och distance traket använder volume automation.</value>
 			<destination>{a862e384-fe52-44ca-9dba-c2ee47872411}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{b3c95d20-50ec-4132-b24b-1dabee04e6b0}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{37b202f4-ef41-4b82-96dd-178e0c1c79ba}" />

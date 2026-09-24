@@ -5,6 +5,9 @@
 			<value>Ett audio track uppdelat i tre loopar vars loop bara spelas när progression värdet matchar.
 Pick up key stingern ligger som ett nested event som ska kunna spelas upp oavsätt zone</value>
 		</property>
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="name">
 			<value>Overworld - horizontal</value>
 		</property>
@@ -56,6 +59,9 @@ Pick up key stingern ligger som ett nested event som ska kunna spelas upp oavsä
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{ed299ca8-16ea-4888-8ff0-8e89b8a1f610}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{5654741b-4766-4470-825b-8617a9da4434}</destination>
 		</relationship>
@@ -63,7 +69,7 @@ Pick up key stingern ligger som ett nested event som ska kunna spelas upp oavsä
 			<destination>{872d28dd-bf4a-4dc0-be28-90ba8d1bfd1e}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{b3c95d20-50ec-4132-b24b-1dabee04e6b0}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{02501def-72de-4c80-ba49-004fa28b997b}" />

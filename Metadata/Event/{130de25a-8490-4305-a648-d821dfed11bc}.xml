@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{130de25a-8490-4305-a648-d821dfed11bc}">
+		<property name="color">
+			<value>Magenta</value>
+		</property>
 		<property name="name">
 			<value>pick up key</value>
 		</property>
@@ -50,6 +53,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{ceea386f-8bc2-44e3-aa53-5758faae6bab}">
+		<property name="color">
+			<value>Magenta</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{23d5186b-668e-4da2-aa9c-43de7b9805aa}</destination>
 		</relationship>
@@ -57,7 +63,7 @@
 			<destination>{934c50bc-f04f-4e7d-bd06-0b25f725c627}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{51588a02-7de4-44c1-a114-21fbd71e62e0}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{1daf35e0-71eb-432b-a436-b301222e7787}" />

@@ -5,6 +5,9 @@
 			<value>Underground musiken är indelade i tre stems vars dB skiftar beroende på progression värde. Alla tre stems använder sig av volume automation.
 Pick up key stingern ligger som ett nested event som ska kunna spelas oavsätt progressions värdet på de tre tidigare stemsen</value>
 		</property>
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="name">
 			<value>Underground - vertical</value>
 		</property>
@@ -56,6 +59,9 @@ Pick up key stingern ligger som ett nested event som ska kunna spelas oavsätt p
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{78a71403-7d14-421e-ab0c-d55d48231482}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{37374ef5-1ebe-4b44-8d82-926b1b7d6d3c}</destination>
 		</relationship>
@@ -63,7 +69,7 @@ Pick up key stingern ligger som ett nested event som ska kunna spelas oavsätt p
 			<destination>{6858ae65-304e-4373-9b1f-7ad48f140679}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{b3c95d20-50ec-4132-b24b-1dabee04e6b0}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{f33d8ced-30ed-4108-9010-fa71a8ab2966}" />

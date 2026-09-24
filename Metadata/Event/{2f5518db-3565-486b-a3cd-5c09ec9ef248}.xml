@@ -4,6 +4,9 @@
 		<property name="note">
 			<value>Bossfight musik med ett separat intro.</value>
 		</property>
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="name">
 			<value>Bossfight - horizontal</value>
 		</property>
@@ -51,6 +54,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{c0a131af-e7eb-4c77-bd11-446efdfd74a6}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{9b664056-f45a-456f-8d50-9d13f4121ba8}</destination>
 		</relationship>
@@ -58,7 +64,7 @@
 			<destination>{10bfa596-cad8-4d8f-8f3e-afd9e5f41069}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{b3c95d20-50ec-4132-b24b-1dabee04e6b0}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{c256cc65-50d0-46d4-8a72-435f8546ca1a}" />

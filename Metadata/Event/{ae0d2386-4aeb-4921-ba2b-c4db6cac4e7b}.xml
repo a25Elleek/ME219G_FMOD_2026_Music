@@ -4,6 +4,9 @@
 		<property name="note">
 			<value>Simpel loop vars funktion är till för meny musik</value>
 		</property>
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="name">
 			<value>Menu music</value>
 		</property>
@@ -49,6 +52,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{ae0033fc-11bf-402d-88e0-61b145f23190}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{089ecc2b-a380-4f8a-8772-f16cacbb04d3}</destination>
 		</relationship>
@@ -56,7 +62,7 @@
 			<destination>{953fe61d-6261-4028-b672-520ad23cb1ee}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{b3c95d20-50ec-4132-b24b-1dabee04e6b0}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{54d9f5f8-6e42-4259-a286-3659d1d4d46b}" />

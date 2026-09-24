@@ -5,6 +5,9 @@
 			<value>Stinger som spelar när spelaren dör.
 Multiinstrument som randomizar en ut av två ljudfiler som innehåller samma sound men är pitchade olika</value>
 		</property>
+		<property name="color">
+			<value>Magenta</value>
+		</property>
 		<property name="name">
 			<value>You died</value>
 		</property>
@@ -52,6 +55,9 @@ Multiinstrument som randomizar en ut av två ljudfiler som innehåller samma sou
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{65e4cb60-ed4b-428e-b6a4-5ae3bb140a99}">
+		<property name="color">
+			<value>Magenta</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{8c41d704-2ebf-4942-9c6f-4c688a270443}</destination>
 		</relationship>
@@ -59,7 +65,7 @@ Multiinstrument som randomizar en ut av två ljudfiler som innehåller samma sou
 			<destination>{b57681a2-07ac-48e6-bebc-a606b1582d25}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{51588a02-7de4-44c1-a114-21fbd71e62e0}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{faa04623-8921-40f3-b5d2-a889e606d91f}" />
