@@ -244,6 +244,9 @@ Pick up key stingern ligger som ett nested event som ska kunna spelas oavsätt p
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{61501285-4cd5-4395-954d-ddf10fc8bd9f}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<property name="name">
 			<value>Audio 4</value>
 		</property>

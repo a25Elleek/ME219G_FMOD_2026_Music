@@ -28,6 +28,8 @@ Pick up key stingern ligger som ett nested event som ska kunna spelas upp oavsä
 		</relationship>
 		<relationship name="markerTracks">
 			<destination>{3a2a9861-5185-4cdc-9770-240f03bf7e7f}</destination>
+			<destination>{6e3d1aca-022f-422a-a67d-01e98e6483f6}</destination>
+			<destination>{02ca6b7b-a4e8-4991-9669-91c36d1d0a6f}</destination>
 		</relationship>
 		<relationship name="groupTracks">
 			<destination>{182bc552-257b-4e44-91a9-c08e1d0fc6a3}</destination>
@@ -66,6 +68,8 @@ Pick up key stingern ligger som ett nested event som ska kunna spelas upp oavsä
 	</object>
 	<object class="EventAutomatableProperties" id="{02501def-72de-4c80-ba49-004fa28b997b}" />
 	<object class="MarkerTrack" id="{3a2a9861-5185-4cdc-9770-240f03bf7e7f}" />
+	<object class="MarkerTrack" id="{6e3d1aca-022f-422a-a67d-01e98e6483f6}" />
+	<object class="MarkerTrack" id="{02ca6b7b-a4e8-4991-9669-91c36d1d0a6f}" />
 	<object class="GroupTrack" id="{182bc552-257b-4e44-91a9-c08e1d0fc6a3}">
 		<relationship name="modules">
 			<destination>{e565fd6f-92f0-4bfb-9576-3b4e2359985d}</destination>
@@ -91,6 +95,9 @@ Pick up key stingern ligger som ett nested event som ska kunna spelas upp oavsä
 			<destination>{2c5b2361-cbd5-48d6-a6b6-4683d9a14b1a}</destination>
 			<destination>{fa243185-318e-41ee-8113-70b5b1713eaa}</destination>
 			<destination>{f45c03d3-ed8e-4315-bd89-2e1ac2e07977}</destination>
+			<destination>{933d7b4d-2252-4385-98f3-46f6ed30edfc}</destination>
+			<destination>{cc681884-2265-44a1-bd03-be37c7b9fa76}</destination>
+			<destination>{a880a1d0-90b8-46ee-828c-ea868bdb0982}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{3cd203ed-8c8b-4c5c-8864-1ddd6132e19c}">
@@ -99,9 +106,6 @@ Pick up key stingern ligger som ett nested event som ska kunna spelas upp oavsä
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{ece25a6a-52f1-4ba3-84bc-bd0c6c01321a}">
-		<property name="volume">
-			<value>-16</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{622fe89a-d261-46fe-9ac3-25d9295ce9ab}</destination>
 		</relationship>
@@ -127,6 +131,9 @@ Pick up key stingern ligger som ett nested event som ska kunna spelas upp oavsä
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{4e9c01fb-316d-4f5d-8a68-31fe1631980a}">
+		<property name="volume">
+			<value>-7</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -155,6 +162,9 @@ Pick up key stingern ligger som ett nested event som ska kunna spelas upp oavsä
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{fb6a92d9-7f32-4217-9032-f704949683eb}">
+		<property name="volume">
+			<value>-7</value>
+		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
@@ -217,6 +227,57 @@ Pick up key stingern ligger som ett nested event som ska kunna spelas upp oavsä
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{c4c450a9-0cfb-4275-9255-9d4d394d7969}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionMarker" id="{933d7b4d-2252-4385-98f3-46f6ed30edfc}">
+		<property name="position">
+			<value>28.5</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{c72f90e1-b38d-476e-83c1-114eec85a84d}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{6e3d1aca-022f-422a-a67d-01e98e6483f6}</destination>
+		</relationship>
+		<relationship name="destination">
+			<destination>{fa243185-318e-41ee-8113-70b5b1713eaa}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{ce614451-39fc-45ad-ab5b-581344c32484}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionMarker" id="{cc681884-2265-44a1-bd03-be37c7b9fa76}">
+		<property name="position">
+			<value>19</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{c72f90e1-b38d-476e-83c1-114eec85a84d}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{6e3d1aca-022f-422a-a67d-01e98e6483f6}</destination>
+		</relationship>
+		<relationship name="destination">
+			<destination>{2c5b2361-cbd5-48d6-a6b6-4683d9a14b1a}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{2bd7b0e0-3527-4c03-aca9-f94505a28aa5}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionMarker" id="{a880a1d0-90b8-46ee-828c-ea868bdb0982}">
+		<property name="position">
+			<value>28.5</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{c72f90e1-b38d-476e-83c1-114eec85a84d}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{02ca6b7b-a4e8-4991-9669-91c36d1d0a6f}</destination>
+		</relationship>
+		<relationship name="destination">
+			<destination>{f45c03d3-ed8e-4315-bd89-2e1ac2e07977}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{ee2c9814-39c3-4187-8169-cd61892ba791}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{622fe89a-d261-46fe-9ac3-25d9295ce9ab}">
@@ -282,6 +343,39 @@ Pick up key stingern ligger som ett nested event som ska kunna spelas upp oavsä
 		</property>
 		<property name="maximum">
 			<value>2</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{acd7bdc5-da33-4a30-a3b1-a36c65552671}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{ce614451-39fc-45ad-ab5b-581344c32484}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{acd7bdc5-da33-4a30-a3b1-a36c65552671}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{2bd7b0e0-3527-4c03-aca9-f94505a28aa5}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{acd7bdc5-da33-4a30-a3b1-a36c65552671}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{ee2c9814-39c3-4187-8169-cd61892ba791}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{acd7bdc5-da33-4a30-a3b1-a36c65552671}</destination>
