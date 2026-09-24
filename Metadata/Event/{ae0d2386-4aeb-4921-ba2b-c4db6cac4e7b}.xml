@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ae0d2386-4aeb-4921-ba2b-c4db6cac4e7b}">
+		<property name="note">
+			<value>Simpel loop vars funktion är till för meny musik</value>
+		</property>
 		<property name="name">
 			<value>Menu music</value>
 		</property>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ae6b923b-af76-4f04-b726-d20d172e9e46}">
+		<property name="note">
+			<value>Underground musiken är indelade i tre stems vars dB skiftar beroende på progression värde. Alla tre stems använder sig av volume automation.
+Pick up key stingern ligger som ett nested event som ska kunna spelas oavsätt progressions värdet på de tre tidigare stemsen</value>
+		</property>
 		<property name="name">
 			<value>Underground - vertical</value>
 		</property>

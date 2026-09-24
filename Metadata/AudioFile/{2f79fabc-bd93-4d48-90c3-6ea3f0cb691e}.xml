@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{2f79fabc-bd93-4d48-90c3-6ea3f0cb691e}">
 		<property name="assetPath">
-			<value>Spooky cave base.mp3</value>
+			<value>Music/Spooky cave base.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

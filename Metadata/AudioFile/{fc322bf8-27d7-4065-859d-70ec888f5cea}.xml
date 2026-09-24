@@ -3,7 +3,7 @@
 	<object class="AudioFile" id="{fc322bf8-27d7-4065-859d-70ec888f5cea}">
 		<property name="note" />
 		<property name="assetPath">
-			<value>Fail sound 1.mp3</value>
+			<value>Music/Fail sound 1.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

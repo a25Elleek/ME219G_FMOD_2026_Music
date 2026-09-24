@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{cc4f8898-0b48-4c64-855f-a3471a5513de}">
 		<property name="assetPath">
-			<value>Keychime.mp3</value>
+			<value>Music/Keychime.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
