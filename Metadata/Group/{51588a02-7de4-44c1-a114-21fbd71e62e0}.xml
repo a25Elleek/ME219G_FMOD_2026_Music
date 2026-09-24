@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{51588a02-7de4-44c1-a114-21fbd71e62e0}">
+		<property name="note">
+			<value>Sidechain som compremerar musiken när en stinger spelas.</value>
+		</property>
 		<property name="color">
 			<value>Magenta</value>
 		</property>
@@ -20,8 +23,10 @@
 	<object class="MixerBusEffectChain" id="{0a30fe2d-5dac-4572-8281-9f899b8620d0}">
 		<relationship name="effects">
 			<destination>{eed887ce-66c9-4df9-b536-a7873fe7af79}</destination>
+			<destination>{2c7339a8-163c-473f-8c56-ddf447aab6ee}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b68d0aa7-aad7-4d98-ae24-38034368be62}" />
 	<object class="MixerBusFader" id="{eed887ce-66c9-4df9-b536-a7873fe7af79}" />
+	<object class="Sidechain" id="{2c7339a8-163c-473f-8c56-ddf447aab6ee}" />
 </objects>

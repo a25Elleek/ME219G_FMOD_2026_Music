@@ -21,6 +21,7 @@
 		<relationship name="effects">
 			<destination>{8e047e25-a934-450f-903f-e027730affa4}</destination>
 			<destination>{222efaa9-e1c1-4c08-b214-c56306089b5b}</destination>
+			<destination>{fc4b0bae-1cda-4005-a92c-4bd85a29fdcd}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{21d84dbd-85d4-4ba1-9bb3-d65857c640c7}" />
@@ -32,5 +33,13 @@
 		<property name="qualityA">
 			<value>0.549824476</value>
 		</property>
+	</object>
+	<object class="CompressorEffect" id="{fc4b0bae-1cda-4005-a92c-4bd85a29fdcd}">
+		<property name="threshold">
+			<value>-6.5</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{2c7339a8-163c-473f-8c56-ddf447aab6ee}</destination>
+		</relationship>
 	</object>
 </objects>
