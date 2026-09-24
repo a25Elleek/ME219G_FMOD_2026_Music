@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Workspace" id="{a270d835-dbe8-4ee9-832d-3b956b572d05}">
-		<property name="builtBanksOutputDirectory">
-			<value>C:/Temp/2D_GameKit_Music_2024/ME219G_Unity_Music_2026</value>
-		</property>
+		<property name="builtBanksOutputDirectory" />
 		<relationship name="masterEventFolder">
 			<destination>{971eb377-adbc-4d6a-bbb0-93fde4e31c19}</destination>
 		</relationship>
