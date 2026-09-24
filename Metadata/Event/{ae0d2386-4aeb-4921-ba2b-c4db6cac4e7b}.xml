@@ -8,7 +8,7 @@
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{971eb377-adbc-4d6a-bbb0-93fde4e31c19}</destination>
+			<destination>{8f08ab00-1faa-4517-9029-ca2083c61bf7}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{29ffa82b-3b69-44a5-b062-2b4fd984d72f}</destination>
@@ -195,7 +195,7 @@
 	<object class="MixerBusPanner" id="{f4d3e42f-d75d-4afb-bbb6-2a5f26b2d22a}" />
 	<object class="ThreeEQEffect" id="{11095e5d-b5cf-4680-9986-37f31e79d4da}">
 		<property name="highGain">
-			<value>-3.5</value>
+			<value>-5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{7bd020c4-499c-4fdc-9275-2eb0425f5e93}" />

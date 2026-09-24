@@ -13,7 +13,7 @@ Både timeline tracket och distance traket använder volume automation.</value>
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{971eb377-adbc-4d6a-bbb0-93fde4e31c19}</destination>
+			<destination>{8f08ab00-1faa-4517-9029-ca2083c61bf7}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{b289d37a-2207-4291-842a-1b756f889856}</destination>
